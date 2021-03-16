@@ -1,0 +1,192 @@
+.bgDK, .bg{
+    transform: scaleX(-1);
+    background-size: cover;
+    height: 100vh;
+    transition: 350ms;
+    width: 100%;
+}
+
+
+.orange{
+    color: rgb(255, 94, 0);
+    background: none;
+}
+
+.bar{
+    position: absolute;
+    width: 65%;
+    margin-top: 7%;
+
+}
+
+.bar-short{
+    position: absolute;
+    width: 68%;
+    margin-top: 7%;
+}
+.skillscontainer{
+    margin: auto;
+    transform: scaleX(-1);
+    border:1px rgba(51, 51, 51, 0) solid;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center; 
+}
+
+.skillscontainer> h1{
+    float: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    border-top: 1px rgb(255, 94, 0) solid;
+}
+
+.skilldesc{
+    margin-top: 15%;
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+
+.eachItem{
+    display: inline-flex;
+    transition: transform 300ms;
+    height: 100%;
+}
+
+.case{
+    width: 55%;
+}
+
+.case>h1{
+    margin-top: 5%;
+    margin-left: 1%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-text-stroke: 0.3px black;
+}
+
+.case>h2{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Oswald','Open Sans', sans-serif;
+    position: absolute;
+    margin-top: -4.7%;
+    margin-left: 3.5%;
+}
+
+.tools{
+    width: 45%;
+    height: 100%;
+}
+
+.tools>i{
+    margin-top: 7%;
+    margin-right: 8%;
+    float:right;
+    width: 10%;
+    font-size: 400%;
+    gap: 40px;
+}
+
+.tools>img{
+    margin-top: 7%;
+    margin-right: -1%;
+    width: 25%;
+    height: 58%;
+    float:right;
+}
+
+.fa-react{
+    color: #61DBFB;
+}
+
+.fa-js{
+    color: #F0DB4F;
+}
+
+.fa-html5{
+    color: #E44D26;
+}
+
+.fa-css3-alt{
+    color: #0066ff;
+}
+.fa-node-js{
+    color: #68A063;
+}
+
+.fa-python{
+    color: #FFD43B;
+    
+}
+
+.fa-js-square{
+    color: #29a104;
+}
+
+.fa-java{
+    color: rgb(255, 0, 0);
+}
+
+.arrow2{
+    color: rgba(255, 255, 255, 0.521);
+    cursor: pointer;
+    margin-top: 75%;
+    margin-left: 47%;
+    position: absolute;
+}
+
+.arrowdesc{
+    position: absolute;
+    font-family: 'Oswald','Open Sans', sans-serif;
+    font-size: 20%;
+    color: rgb(124, 124, 124);
+    opacity: 40%;
+}
+
+
+@media only screen and (max-width: 960px){
+    .skilldesc{
+        margin-top: 30%;
+        width: 100%;
+    }
+    .tools>i{
+        font-size: 190%;
+        margin-right: 10%;
+    }
+    .tools>img{
+        height: 30%;
+        width: 25%;
+        margin-top: 1%;
+    }
+    .bar{
+        margin-top: 6%;
+        width: 62%;
+    }
+    .bar-short{
+        margin-top: 6%;
+        width: 67%;
+    }
+    .case>h1{
+        font-size: 100%;
+        margin-top: 2%;
+    }
+    .case>h2{
+        font-size: 100%;
+        margin-top: -7%;
+        margin-left: 7%;   
+    }
+
+    .arrow2{
+        visibility: hidden;
+        display: none;
+    }
+
+}

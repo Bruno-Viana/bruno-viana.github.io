@@ -1,0 +1,329 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Transição */
+.BgParallax{
+    background-image: url("F:\JS_Learn\porfolio1\portfolio\src\templates\catedralbw.webp"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    width: 100%;
+    height: 100vh;
+}
+
+.BgParallaxHero{
+    background-image: url("F:\JS_Learn\porfolio1\portfolio\src\templates\lamp.webp"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;   
+}
+.BgParallaxProj{
+    background-image: url("F:\JS_Learn\porfolio1\portfolio\src\templates\projects.webp"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;   
+}
+.transbgDK{
+    transform: scaleY(-1);
+    background-image: url("F:\JS_Learn\porfolio1\portfolio\src\templates\bgdownside-dk.svg");
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    transition: 350ms;
+}
+.transbg{
+    transform: scaleY(-1);
+    background-image: url("F:\JS_Learn\porfolio1\portfolio\src\templates\bgdownside.svg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    transition: 350ms;
+}
+.transbgDKdown{
+
+    background-image: url("F:\JS_Learn\porfolio1\portfolio\src\templates\bgdownside-dk.svg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    transition: 350ms;
+}
+.transbgdown{
+
+    background-image: url("F:\JS_Learn\porfolio1\portfolio\src\templates\bgdownside.svg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    transition: 350ms;
+}
+.ParallaxHeader{
+    margin-top: 0;
+    font-size: 1000%;
+    font-weight: 400;
+}
+/*    text-align: center;
+    margin-top: 18%;
+    margin-left: 35%;
+    font-size: 1000%;
+    font-weight: 400;
+    position: absolute;*/
+/* Fim transição */
+.arrow3{
+    color: rgba(255, 255, 255, 0.521);
+    cursor: pointer;
+    margin-top: -9%;
+    margin-left: 49%;
+    position: absolute;
+}
+.wrappercontato{
+    transform: scaleX(-1);
+    width: 100vw;
+    height: 100vh;
+}
+.bgTeste{
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 119vh;
+}
+.contatoHeader{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    border-top: 1px rgb(255, 94, 0) solid;
+    margin-left: 47%;
+    margin-top: 10%;
+}
+.containercontato{ 
+    margin-top: 10%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.form{
+    margin: auto;
+    margin-top: 2%;
+    width: 50%;
+    height: 70%;
+    box-shadow: -2px -1px 18px -3px #00000054;
+}
+
+textarea, input {
+	resize: none;
+
+}
+.form-label-nome, .form-label-email, .form-label-assunto, .form-label-mensagem {
+	font-size: 15px;
+    position: absolute;
+}
+.form-label-nome{
+    margin-left: -15%;
+    margin-top: 0.5%;
+}
+.form-label-email{
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+.form-label-assunto{
+    margin-left: -15%;
+    margin-top: 5%;
+}
+.form-label-mensagem{
+    margin-left: -15%;
+    margin-top: 11%;
+}
+
+.form-control, .form-nome, .form-email,.form-assunto, .form-mensagem{
+    height: 20px;
+	border-radius: 0;
+	border-color: rgb(255, 255, 255);
+   	border-width: 0 0 2px 0;
+   	box-shadow: none;
+    outline:0px;
+    background-color: transparent;
+}
+.form-control,.form-nomeDK, .form-emailDK,.form-assuntoDK, .form-mensagemDK{
+    height: 20px;
+	border-radius: 0;
+	border-color: rgb(0, 0, 0);
+   	border-width: 0 0 2px 0;
+   	box-shadow: none;
+    outline:0px;
+}
+.form-nome, .form-nomeDK{
+    position: absolute;
+    width: 14%;
+    margin-left: -15%;
+    margin-top: 2%;
+}
+.form-email,.form-emailDK{
+    position: absolute;
+    width: 14%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.form-assunto,.form-assuntoDK{
+    position: absolute;
+    width: 30%;
+    margin-top: 7%;
+    margin-left: -15%;
+
+}
+.form-mensagem,.form-mensagemDK{
+    position: absolute;
+    width: 30%;
+    height: 16%;
+    margin-top: 13%;
+    margin-left: -15%;
+}
+.form-nome:hover,.form-nome:active, .form-nome:focus {
+	border-color:rgb(255, 94, 0);
+	color: rgb(255, 94, 0);
+}
+.form-email:hover,.form-email:active, .form-email:focus {
+	border-color:rgb(255, 94, 0);
+	color: rgb(255, 94, 0);
+}
+.form-assunto:hover,.form-assunto:active, .form-assunto:focus {
+	border-color:rgb(255, 94, 0);
+	color: rgb(255, 94, 0);
+}
+.form-mensagem:hover,.form-mensagem:active, .form-mensagem:focus {
+	border-color:rgb(255, 94, 0);
+	color: rgb(255, 94, 0);
+}
+.form-nomeDK:hover,.form-nomeDK:active, .form-nomeDK:focus, .form-emailDK:hover,.form-emailDK:active, .form-emailDK:focus, .form-assuntoDK:hover,.form-assuntoDK:active, .form-assuntoDK:focus,.form-mensagemDK:hover,.form-mensagemDK:active, .form-mensagemDK:focus {
+	border-color:rgb(255, 94, 0);
+	color: rgb(255, 94, 0);
+}
+.btn-start-order {
+    position: absolute;
+	background: 0 0 #ffffff;
+    border: 1px solid #2f323a;
+    border-radius: 3px;
+    color: #2f323a;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    padding: 10px 50px;
+    margin-top: 23%;
+    margin-left: -6.5%;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color:rgb(255, 94, 0);
+	color: rgb(255, 94, 0);
+}
+
+
+.retornaMsg{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 8.5%;
+    font-size: 120%;
+}
+
+
+@media only screen and (max-width: 960px){
+    .BgParallaxHero,.BgParallax,.BgParallaxProj{
+        background-size: 100vw 50vh;
+        background-attachment:fixed;
+
+    }
+    .ParallaxHeader{
+        font-size: 300%;
+    }
+    .arrow3{
+        visibility: hidden;
+        display: none;
+    }
+    .form{
+        margin: auto;
+        margin-top: 12%;
+        width: 95vw;
+        height: 60vh;
+        box-shadow: -2px -1px 18px -3px #00000054;
+    }
+    .form-nome, .form-nomeDK{
+        width: 30%;
+
+        margin-left: -35%;
+        margin-top: 5.2%;
+    }
+    .form-email,.form-emailDK{
+        width: 30%;
+        margin-left: 5%;
+        margin-top: 5.2%;
+    }
+    .form-assunto,.form-assuntoDK{
+        width: 70%;
+        margin-top: 22%;
+        margin-left: -35%;
+    
+    }
+    .form-mensagem,.form-mensagemDK{
+        width: 70%;
+        height: 16%;
+        margin-top: 40%;
+        margin-left: -35%;
+    }
+    .form-label-nome{
+        margin-left: -35%;
+        margin-top: 0.5%;
+        z-index: 5;
+    }
+    .form-label-email{
+        margin-top: 0.5%;
+        margin-left: 5%;
+        z-index: 4;
+    }
+    .form-label-assunto{
+        margin-left: -35%;
+        margin-top: 15%;
+        z-index: 4;
+    }
+    .form-label-mensagem{
+        margin-left: -35%;
+        margin-top: 30%;
+        z-index: 4;
+    }    
+    .btn-start-order {
+        font-size: 16px;
+        padding: 10px 50px;
+        margin-top: 72%;
+        margin-left: -22%;
+    }
+    .retornaMsg{
+        margin-top: 85%;
+        margin-left: 8%;
+        width: 80%;
+        text-align:center;
+
+    }
+    
+}

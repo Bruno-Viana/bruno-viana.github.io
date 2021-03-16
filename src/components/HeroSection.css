@@ -1,0 +1,238 @@
+  .hero-containerDK, .hero-container {
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    transition: 350ms;
+  }
+
+  .orangeBG{
+    position: absolute;
+    margin-left: -30%;
+    margin-top: -4%;
+    width: 25%;
+    height: 60%;
+  }
+
+  .loader{
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    position: absolute; 
+  }
+  
+
+  #svglogo, #svgborder{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  #crosshair1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 40%;
+    position: absolute;
+  }
+  #crosshair2{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: -45%;
+    position: absolute;
+  }
+  /*Animação Bordas*/
+
+  #svgborder path:nth-child(1){
+    stroke-dasharray: 1800;
+    stroke-dashoffset: 1800;
+    animation: line-anim 4s ease forwards;
+  }
+
+  /*Animação Letras*/
+  #svglogo path:nth-child(2){
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: line-anim 2s ease forwards 0.1s;
+  }
+  #svglogo path:nth-child(3){
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: line-anim 2s ease forwards 0.2s;
+  }
+  #svglogo path:nth-child(4){
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: line-anim 2s ease forwards 0.4s;
+  }
+  #svglogo path:nth-child(5){
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: line-anim 2s ease forwards 0.6s;
+  }
+  #svglogo path:nth-child(6){
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: line-anim 2s ease forwards 0.8s;
+  }
+  #svglogo path:nth-child(7){
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: line-anim 2s ease forwards 1s;
+  }
+  #svglogo path:nth-child(8){
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: line-anim 2s ease forwards 1.2s;
+  }
+  #svglogo path:nth-child(9){
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: line-anim 2s ease forwards 1.4s;
+  }
+  #svglogo path:nth-child(10){
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: line-anim 2s ease forwards 1.6s;
+  }
+  #svglogo path:nth-child(11){
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: line-anim 2s ease forwards 1.8s;
+  }
+
+  @keyframes line-anim{
+    to{
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .floater{
+    width: 80%;
+    height: 50%;
+    top:0;
+    display: flex;
+    margin-bottom: 10%;
+    /*box-shadow: 2px 2px 3px rgba(0,0,0,.5); opt shadows*/ 
+  }
+  .left{
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
+  .left > img{
+    object-fit:cover;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 0px 6px rgba(0,0,0,.5);    
+  }
+  .right{
+      width: 70%;
+      height: 100%;
+      float: right;
+      margin-left: 1%;
+
+  }
+  .right > p, span{
+    margin-left: 3px;
+  }
+  .right > h2 {
+    color: #000000;
+    font-size: 200%;
+    font-family:'Oswald', sans-serif;
+    margin-top: -1.4%;
+  }
+  
+  .right > p {
+  color: rgb(112, 112, 112);
+  font-size: 40px;
+  margin-top: -1%;
+  font-family:'Oswald', sans-serif;
+  overflow: hidden;
+  }
+
+  .desc {
+    text-align: justify;
+    text-justify: inter-word;
+    margin: auto;
+  }
+  .location , .fa-map-marker-alt{
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+    text-shadow: 0.6px 0.6px #0000005d;
+  }
+  .fa-angle-left, .fa-angle-right {
+    color: rgb(255, 94, 0);
+  }
+  
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+
+  .bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.521);
+    cursor: pointer;
+  }
+
+
+  @media only screen and (max-width: 960px){
+    .floater{
+      margin-top: 40%;
+      height: 60%;
+    }
+    .left{
+      height: 40%;
+    }
+    .orangeBG{
+      height: 28%;
+      transform: translate(-2%, -25%);
+    }
+    .location , .fa-map-marker-alt{
+      font-size: 80%;
+    }
+    .right >p {
+      font-size: 150%;
+    }
+
+
+    
+  }

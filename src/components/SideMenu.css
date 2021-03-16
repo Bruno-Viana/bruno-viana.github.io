@@ -1,0 +1,21 @@
+.sideList{
+    position: fixed;
+    margin-top: 20%;
+    margin-left: 93%;
+    font-size: 18px;
+    z-index:1;
+    list-style-type: none;
+}
+
+.fa-circle:hover {
+    transform: scale(1.1);
+    opacity:1;
+    cursor: pointer;
+}
+
+.fa-circle{
+    transition-duration: 250ms;
+    opacity:0.5;
+    color:rgb(254, 94, 0);
+}
+
