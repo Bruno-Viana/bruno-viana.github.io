@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.81c0cf70.chunk.css",
+    "main.js": "/portfolio/static/js/main.e58b3b47.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e58b3b47.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8fc4b140.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fc4b140.js.map",
+    "static/js/2.b4593bfe.chunk.js": "/portfolio/static/js/2.b4593bfe.chunk.js",
+    "static/js/2.b4593bfe.chunk.js.map": "/portfolio/static/js/2.b4593bfe.chunk.js.map",
+    "static/js/3.9a3f1b24.chunk.js": "/portfolio/static/js/3.9a3f1b24.chunk.js",
+    "static/js/3.9a3f1b24.chunk.js.map": "/portfolio/static/js/3.9a3f1b24.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.81c0cf70.chunk.css.map": "/portfolio/static/css/main.81c0cf70.chunk.css.map",
+    "static/js/2.b4593bfe.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b4593bfe.chunk.js.LICENSE.txt",
+    "static/media/Contato.css": "/portfolio/static/media/projects.57a88e3a.webp",
+    "static/media/css3.0a53af65.webp": "/portfolio/static/media/css3.0a53af65.webp",
+    "static/media/django.757edaf7.webp": "/portfolio/static/media/django.757edaf7.webp",
+    "static/media/doom.deb50d41.webp": "/portfolio/static/media/doom.deb50d41.webp",
+    "static/media/html5.fcf74633.webp": "/portfolio/static/media/html5.fcf74633.webp",
+    "static/media/nodejs.a0d000a7.webp": "/portfolio/static/media/nodejs.a0d000a7.webp",
+    "static/media/paypal.7232a8fe.webp": "/portfolio/static/media/paypal.7232a8fe.webp",
+    "static/media/pewviewtest.b8989ea0.webp": "/portfolio/static/media/pewviewtest.b8989ea0.webp",
+    "static/media/pewviewtest2.ccaf4288.webp": "/portfolio/static/media/pewviewtest2.ccaf4288.webp",
+    "static/media/previewdjango.8fff0e12.webp": "/portfolio/static/media/previewdjango.8fff0e12.webp",
+    "static/media/previewdjangoDK.1f78f404.webp": "/portfolio/static/media/previewdjangoDK.1f78f404.webp",
+    "static/media/python.43b26a54.webp": "/portfolio/static/media/python.43b26a54.webp",
+    "static/media/react.e501796c.webp": "/portfolio/static/media/react.e501796c.webp",
+    "static/media/template-preview-mobile.5709bd01.webp": "/portfolio/static/media/template-preview-mobile.5709bd01.webp",
+    "static/media/template-preview-mobiledk.5ae8f44f.webp": "/portfolio/static/media/template-preview-mobiledk.5ae8f44f.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fc4b140.js",
+    "static/js/2.b4593bfe.chunk.js",
+    "static/css/main.81c0cf70.chunk.css",
+    "static/js/main.e58b3b47.chunk.js"
+  ]
+}
