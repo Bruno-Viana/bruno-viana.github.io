@@ -6,7 +6,7 @@ export default function ProjTransition() {
   const [clickDk] = useContext(DarkmodeContext);
   
   const scrollDown = () =>{
-    window.scrollTo({ top: window.innerHeight-40, behavior: 'smooth' })
+    window.scrollTo({ top: window.innerHeight*4-40, behavior: 'smooth' })
   };
   return (
     <>

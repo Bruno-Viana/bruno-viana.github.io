@@ -5,7 +5,7 @@ import {DarkmodeContext} from './DarkmodeContext';
 export default function HeroTransition() {
   const [clickDk] = useContext(DarkmodeContext);
   const scrollDown = () =>{
-    window.scrollTo({ top: window.innerHeight-40, behavior: 'smooth' })
+    window.scrollTo({ top: window.innerHeight*2-40, behavior: 'smooth' })
   };
   return (
     <>
