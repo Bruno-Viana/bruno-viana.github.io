@@ -1,7 +1,5 @@
 import React, {useContext} from 'react';
 import './Projects.css';
-//AOS
-import AOS from 'aos';
 //import Badges
 import logo_react from '../templates/react.webp';
 import logo_nodejs from '../templates/nodejs.webp';
@@ -21,7 +19,6 @@ import previewmobileDK from '../templates/template-preview-mobiledk.webp'
 import previewDjango from '../templates/previewdjango.webp'
 import previewDjangoDK from '../templates/previewdjangoDK.webp'
 function Projects() {
-  AOS.init(); //Inicia AOS
 
 
 
@@ -32,17 +29,9 @@ function Projects() {
 
         <div className={clickDk ? 'bgprojDK' : 'bgproj'}>
             <div className='projcontainer'>
-                <div className='card'
-                data-aos="fade-in"
-                data-aos-delay="50"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out">
+                <div className='card'>
                     <div className='left-column'>
-                    <img src={clickDk ? previewpcDK : previewpc} alt='projpreview' 
-                        data-aos="fade-up"
-                        data-aos-delay="500"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">
+                    <img src={clickDk ? previewpcDK : previewpc} alt='projpreview'>
                     </img>
                     </div>
                     <div className='right-column'>
@@ -64,20 +53,13 @@ function Projects() {
                     </div>
                     <a className='demoAnchor' href="https://bruno-viana.github.io/react-ecommerce/" target='_blank' rel="noreferrer"><button className='btnDemo' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fas fa-play-circle"></i> Demo</button></a>
                     <a className='sourceAnchor' href="https://github.com/Bruno-Viana/react-ecommerce" target="_blank" rel="noreferrer"><button className='btnDemo' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Código</button></a>
-                    <img className='previewmobile' src={clickDk ? previewmobileDK : previewmobile} alt='mobile'  
-                        data-aos="fade-up"
-                        data-aos-delay="300"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">
+                    <img className='previewmobile' src={clickDk ? previewmobileDK : previewmobile} alt='mobile'>
                     </img>
                 </div>   
             </div>
             <div className='projcontainer2'>
                 <div className='card'>
-                <div className='right-column-alt'data-aos="fade-right"
-                    data-aos-delay="500"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in-out">
+                <div className='right-column-alt'data-aos="fade-right">
                         <h1 style={{color: clickDk ? '#F0F6FC' : 'black'}}><i className="fas fa-angle-left"></i>API Fetcher? Placeholder<i className="fas fa-angle-right"></i></h1>
                         <div className='card-tools'>
                                 <img src={logo_react} alt='react-logo'></img>
@@ -92,35 +74,19 @@ function Projects() {
                         </div>
                     </div>
                     <div className='left-column-alt'>
-                    <img src={clickDk ? previewpcDK : previewpc} alt='projpreview'                       
-                        data-aos="fade-left"
-                        data-aos-delay="2000"
-                        data-aos-duration="2000"
-                    >
+                    <img src={clickDk ? previewpcDK : previewpc} alt='projpreview'>
                     </img>           
                     </div>
                 </div>
                 <a className='demoAnchor-alt' href="https://bruno-viana.github.io/react-ecommerce/" target='_blank' rel="noreferrer"><button className='btnDemo-alt' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fas fa-play-circle"></i> Demo</button></a>
                 <a className='sourceAnchor-alt' href="https://github.com/Bruno-Viana/react-ecommerce" target="_blank" rel="noreferrer"><button className='btnDemo-alt' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Código</button></a>  
-                <img className='previewmobile-alt' src={clickDk ? previewmobileDK : previewmobile} alt='mobile'  
-                        data-aos="fade-up"
-                        data-aos-delay="300"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">
+                <img className='previewmobile-alt' src={clickDk ? previewmobileDK : previewmobile} alt='mobile'>
                 </img>
             </div>
             <div className='projcontainer3'>
-                <div className='card'
-                    data-aos="fade-in"
-                    data-aos-delay="50"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in-out">
+                <div className='card'>
                         <div className='left-column'>
-                        <img src={clickDk ? previewDjangoDK : previewDjango} alt='projpreview' 
-                            data-aos="fade-up"
-                            data-aos-delay="500"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
+                        <img src={clickDk ? previewDjangoDK : previewDjango} alt='projpreview'>
                         </img>
                         </div>
                         <div className='right-column'>
@@ -144,7 +110,7 @@ function Projects() {
                              Demo</button>
                             <div className="hideProj">Pelo nível de recursos necessários para hospedar uma aplicação feita com Back-end em Django/Python não tive opções acessíveis para dar deploy e gerar uma demo.</div>
                         <a className='sourceAnchor' href="https://github.com/Bruno-Viana/pc-easy" target="_blank" rel="noreferrer"><button className='btnDemo' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Código</button></a>
-                        {/*
+                        {/* Template para preview de celular lado Esquerdo
                         <img className='previewmobile' src={clickDk ? previewmobileDK : previewmobile} alt='mobile'  
                             data-aos="fade-up"
                             data-aos-delay="300"

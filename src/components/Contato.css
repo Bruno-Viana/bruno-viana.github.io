@@ -251,8 +251,8 @@ textarea, input {
 
 @media only screen and (max-width: 960px){
     .BgParallaxHero,.BgParallax,.BgParallaxProj{
-        background-size: 100vw 50vh;
-        background-attachment:fixed;
+        background-size: 100vw 40vh;
+        background-attachment:scroll;
 
     }
     .ParallaxHeader{

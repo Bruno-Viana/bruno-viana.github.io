@@ -8,23 +8,18 @@ import Contato from '../Contato';
 import HeroTransition from '../HeroTransition';
 import ContatoTransition from '../ContatoTransition';
 import ProjTransition from '../ProjTransition';
-import LazyLoad from 'react-lazyload';
 
 function Home() {
   return (
     <>
       <HeroSection/>
       <HeroTransition/>
-      <LazyLoad height={'100vh'} >
           <Skills/>
-      </LazyLoad>
       <ProjTransition/>
-      <LazyLoad height={'100vh'}>
          <Projects/>
-      </LazyLoad>
       <Bandaid/>
       <ContatoTransition/>
-      <Contato/>
+        <Contato/>
     </>
   );
 }
