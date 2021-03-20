@@ -45,7 +45,7 @@ function HeroSection() {
             <h2 style={{color: clickDk ? '#F0F6FC' : 'black'}}>{Mensagem}</h2>
                 <span className='location'><i className="fas fa-map-marker-alt"/> Santa Cruz do Sul, Rio Grande do Sul.</span> <hr/>
                 <p> Desenvolvedor Júnior </p>
-                <span className='desc'style={{color: clickDk ? '#F0F6FC' : 'black'}}>Meu nome é <b>Bruno Viana</b>, estudande de Ciência da Computação pela UNISC. Apaixonado pelo <b>Fullstack</b> com uma atenção especial pelo <b>Back-end</b> sem esquecer a <b>UI/UX</b>.
+                <span className='desc'style={{color: clickDk ? '#F0F6FC' : 'black'}}>Meu nome é <b>Bruno Viana</b>, estudande de Ciência da Computação pela UNISC. Apaixonado pelo <b>Fullstack</b> com uma atenção especial pelo <b>Back-end</b> sem esquecer a <b>UI/UX</b>. Sempre procurando evoluir sendo autodidata.
                 </span>
             </div>
         </animated.div>
@@ -108,7 +108,7 @@ function HeroSection() {
                 from: { opacity: 0,  }, delay: 5500,
                 config:{ duration: 1500 },
               })}>
-                <i className="fa fa-angle-down fa-5x" aria-hidden="true" onClick={scrollDown} style={{color: clickDk ? 'grey' : '#ababab'}}><span className='arrowdesc'>Conheça</span></i>
+                <i className="fa fa-angle-down fa-5x" aria-hidden="true" onClick={scrollDown} style={{color: clickDk ? 'rgba(209, 209, 209, 0.651)' : 'rgba(48, 47, 47, 0.651)'}}><span className='arrowdesc'>Conheça</span></i>
               </animated.div> 
     </div>
     </>

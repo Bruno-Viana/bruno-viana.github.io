@@ -7,14 +7,19 @@ import logo_html from '../templates/html5.webp';
 import logo_css from '../templates/css3.webp';
 import logo_paypal from '../templates/paypal.webp';
 import logo_django from '../templates/django.webp';
-import logo_python from '../templates/python.webp'
+import logo_python from '../templates/python.webp';
 //Import Darkmode
 import {DarkmodeContext} from './DarkmodeContext';
 //import Previews - React Ecommerce
 import previewpc from '../templates/pewviewtest.webp';
 import previewpcDK from '../templates/pewviewtest2.webp';
-import previewmobile from '../templates/template-preview-mobile.webp'
-import previewmobileDK from '../templates/template-preview-mobiledk.webp'
+import previewmobile from '../templates/template-preview-mobile.webp';
+import previewmobileDK from '../templates/template-preview-mobiledk.webp';
+//import Previews - Covid
+import previewCovid from '../templates/previewcovid.webp';
+import previewCovidDK from '../templates/previewcovidDK.webp';
+import previewCovidMobile from '../templates/previewcovidMobile.webp';
+import previewCovidMobileDK from '../templates/previewCovidMobileDK.webp';
 //import Previews - Django
 import previewDjango from '../templates/previewdjango.webp'
 import previewDjangoDK from '../templates/previewdjangoDK.webp'
@@ -60,7 +65,7 @@ function Projects() {
             <div className='projcontainer2'>
                 <div className='card'>
                 <div className='right-column-alt'data-aos="fade-right">
-                        <h1 style={{color: clickDk ? '#F0F6FC' : 'black'}}><i className="fas fa-angle-left"></i>API Fetcher? Placeholder<i className="fas fa-angle-right"></i></h1>
+                        <h1 style={{color: clickDk ? '#F0F6FC' : 'black'}}><i className="fas fa-angle-left"></i>COVID SCS e região + API<i className="fas fa-angle-right"></i></h1>
                         <div className='card-tools'>
                                 <img src={logo_react} alt='react-logo'></img>
                                 <img src={logo_nodejs} alt='nodejs-logo'></img>
@@ -69,18 +74,19 @@ function Projects() {
                         </div>
                         <div className='card-desc'>
                                     <p style={{color: clickDk ? '#F0F6FC' : 'black'}}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec neque commodo, condimentum nibh at, tincidunt metus. Fusce consectetur purus et nisi interdum sagittis. Aenean sed lectus dolor. Aenean ac dignissim erat, ut gravida justo.
+                                    API criada por mim em NodeJS e deploy no Heroku utilizando <i>Web Scraping</i> nos dados da Secretaria da Saúde do Rio Grand do Sul. Os dados são verificados a cada uma hora.<br/>
+                                    Para o Front-End utilizei React com Axios para dar fetch na API e mostrar os dados, a biblioteca do mapa utilizada foi Leaflet, design totalmente responsivo e ordenação de tabelas.
                                     </p>
                         </div>
                     </div>
                     <div className='left-column-alt'>
-                    <img src={clickDk ? previewpcDK : previewpc} alt='projpreview'>
+                    <img src={clickDk ? previewCovidDK : previewCovid} alt='projpreview'>
                     </img>           
                     </div>
                 </div>
-                <a className='demoAnchor-alt' href="https://bruno-viana.github.io/react-ecommerce/" target='_blank' rel="noreferrer"><button className='btnDemo-alt' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fas fa-play-circle"></i> Demo</button></a>
-                <a className='sourceAnchor-alt' href="https://github.com/Bruno-Viana/react-ecommerce" target="_blank" rel="noreferrer"><button className='btnDemo-alt' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Código</button></a>  
-                <img className='previewmobile-alt' src={clickDk ? previewmobileDK : previewmobile} alt='mobile'>
+                <a className='demoAnchor-alt' href="https://bruno-viana.github.io/covid-dosvales/" target='_blank' rel="noreferrer"><button className='btnDemo-alt' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fas fa-play-circle"></i> Demo</button></a>
+                <a className='sourceAnchor-alt' href="https://github.com/Bruno-Viana/covid-dosvales" target="_blank" rel="noreferrer"><button className='btnDemo-alt' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Código</button></a>  
+                <img className='previewmobile-alt' src={clickDk ? previewCovidMobileDK : previewCovidMobile} alt='mobile'>
                 </img>
             </div>
             <div className='projcontainer3'>
@@ -99,7 +105,7 @@ function Projects() {
                             </div>
                             <div className='card-desc'>
                                         <p style={{color: clickDk ? '#F0F6FC' : 'black'}}>
-                                            Como projeto pessoal em 2020, criei essa aplicação com método de web scraping em sites conhecidos de hardware do Brasil para auxiliar na buscar do melhor preço por uma peça específica.
+                                            Como projeto pessoal em 2020, criei essa aplicação com método de <i>Web Scraping</i> em sites conhecidos de hardware do Brasil para auxiliar na buscar do melhor preço por uma peça específica.
                                             <br/><br/><br/>
                                             OBS: Passe o mouse abaixo para mais informações.
                                         </p>

@@ -83,7 +83,7 @@ function Skills() {
                 data-aos-offset="-30"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out">
-            <i className="fa fa-angle-down fa-5x" aria-hidden="true" onClick={scrollDown}style={{color: clickDk ? 'grey' : '#ababab'}}><span className='arrowdesc'>Projetos</span></i></div>
+            <i className="fa fa-angle-down fa-5x" aria-hidden="true" onClick={scrollDown}style={{color: clickDk ? 'rgba(209, 209, 209, 0.651)' : 'rgba(48, 47, 47, 0.651)'}}><span className='arrowdesc'>Projetos</span></i></div>
           </div> 
         </div>
     </div>

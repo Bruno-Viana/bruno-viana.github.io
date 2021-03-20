@@ -14,7 +14,7 @@ export default function HeroTransition() {
     <h1 className='ParallaxHeader' style={{color: clickDk ? 'rgba(209, 209, 209, 0.651)' : 'rgba(48, 47, 47, 0.651)'}}>Habilidades</h1>
     </div>
     <div className="arrow3 bounce">
-            <i className="fa fa-angle-down fa-5x" aria-hidden="true" onClick={scrollDown}style={{color: clickDk ? 'grey' : '#ababab'}}></i></div>
+            <i className="fa fa-angle-down fa-5x" aria-hidden="true" onClick={scrollDown}style={{color: clickDk ? 'rgba(209, 209, 209, 0.651)' : 'rgba(48, 47, 47, 0.651)'}}></i></div>
     </>
   );
 }
