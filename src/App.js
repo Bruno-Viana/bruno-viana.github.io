@@ -16,7 +16,7 @@ function App() {
       <Navbar/>
       <Social/>
         <Switch>
-            <Route path='/portfolio/' exact component={Home} />
+            <Route exact path='/' component={Home} />
         </Switch>
       <Footer/>
       </DarkmodeProvider>
