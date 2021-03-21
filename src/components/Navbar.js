@@ -38,7 +38,6 @@ function Navbar() {
     //Menu e mobile da Navbar
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
-    console.log('Button usado apenas pelo setButton.');
 
 
     const handleClick = () => setClick(!click);
@@ -73,7 +72,7 @@ function Navbar() {
                   from: { opacity: 0, transform: "translate(0px, -400px)" }, delay: 4500
             })}>
                 <div className="navbar-container">
-                    <Link to="/portfolio/" className="navbar-logo" onClick={refreshPage} style={{textDecoration: 'none'}}>
+                    <Link className="navbar-logo" onClick={refreshPage} style={{textDecoration: 'none'}}>
                         <span className='namenavbar' style={{color: clickDk ? 'white' : 'black',
                         border: clickDk ? '1px solid white'  : '1px solid black' }}>Bruno Viana</span>
                     </Link>

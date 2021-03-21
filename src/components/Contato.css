@@ -222,7 +222,22 @@ textarea, input {
 }
 .btn-start-order {
     position: absolute;
-	background: 0 0 #ffffff;
+	background: 0 0 transparent;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    padding: 10px 50px;
+    margin-top: 23%;
+    margin-left: -6.5%;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-orderDK{
+    position: absolute;
+	background: 0 0 transparent;
     border: 1px solid #2f323a;
     border-radius: 3px;
     color: #2f323a;
@@ -235,7 +250,7 @@ textarea, input {
     text-transform: uppercase;
     transition: all 0.25s ease 0s;
 }
-.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+.btn-start-order:hover,.btn-start-orderDK:hover,.btn-start-order:active,.btn-start-orderDK:active, .btn-start-order:focus, .btn-start-orderDK:focus {
 	border-color:rgb(255, 94, 0);
 	color: rgb(255, 94, 0);
 }

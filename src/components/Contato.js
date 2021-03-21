@@ -42,7 +42,7 @@ export default function Contato() {
                 <textarea rows="8" cols="50" name="mensagem" className={clickDk ? 'form-mensagem' : 'form-mensagemDK'} id="message" placeholder="" required style={{color: clickDk ? '#F0F6FC' : 'black'}}></textarea>                                 
             </div>
             <div className="text-center">
-                <button type="submit" className="btn btn-start-order" >Enviar</button>
+                <button type="submit" className={clickDk ? "btn btn-start-order": 'btn btn-start-orderDK' } >Enviar</button>
             </div>
             <p id="retornaMsg" className="retornaMsg" style={{color: clickDk ? '#F0F6FC' : 'black'}}></p>
             </form>
