@@ -74,7 +74,7 @@ function Projects() {
                         </div>
                         <div className='card-desc'>
                                     <p style={{color: clickDk ? '#F0F6FC' : 'black'}}>
-                                    API criada por mim em NodeJS e deploy no Heroku utilizando <i>Web Scraping</i> nos dados da Secretaria da Saúde do Rio Grand do Sul. Os dados são verificados a cada uma hora.<br/>
+                                    API criada por mim em NodeJS e deploy no Heroku utilizando <i>Web Scraping</i> nos dados da Secretaria da Saúde do Rio Grande do Sul. Os dados são verificados a cada uma hora.<br/>
                                     Para o Front-End utilizei React com Axios para dar fetch na API e mostrar os dados, a biblioteca do mapa utilizada foi Leaflet, design totalmente responsivo e ordenação de tabelas.
                                     </p>
                         </div>
