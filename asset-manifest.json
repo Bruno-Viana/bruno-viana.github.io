@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bruno-viana.github.io/static/css/main.44cca05b.chunk.css",
-    "main.js": "/bruno-viana.github.io/static/js/main.7cfcf623.chunk.js",
-    "main.js.map": "/bruno-viana.github.io/static/js/main.7cfcf623.chunk.js.map",
+    "main.js": "/bruno-viana.github.io/static/js/main.adbef922.chunk.js",
+    "main.js.map": "/bruno-viana.github.io/static/js/main.adbef922.chunk.js.map",
     "runtime-main.js": "/bruno-viana.github.io/static/js/runtime-main.bb8002b9.js",
     "runtime-main.js.map": "/bruno-viana.github.io/static/js/runtime-main.bb8002b9.js.map",
     "static/js/2.ac2614c0.chunk.js": "/bruno-viana.github.io/static/js/2.ac2614c0.chunk.js",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.bb8002b9.js",
     "static/js/2.ac2614c0.chunk.js",
     "static/css/main.44cca05b.chunk.css",
-    "static/js/main.7cfcf623.chunk.js"
+    "static/js/main.adbef922.chunk.js"
   ]
 }
