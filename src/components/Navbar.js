@@ -3,23 +3,37 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import {DarkmodeContext} from './DarkmodeContext';
 import {useSpring, animated} from 'react-spring'
+import {isMobile} from "react-device-detect";
 
 function Navbar() {
     //Navlinks
 
     const scrollSkills = () =>{
+        if(isMobile){
+            window.scrollTo({ top: window.innerHeight*1.4, behavior: 'smooth' })
+            closeMobileMenu()
+        }else{
         window.scrollTo({ top: window.innerHeight*2-40, behavior: 'smooth' })
-        closeMobileMenu()
+
+        }
     };
 
     const scrollProjects = () =>{
+        if(isMobile){
+            window.scrollTo({ top: window.innerHeight*2.75, behavior: 'smooth' })
+            closeMobileMenu()
+        }else{
         window.scrollTo({ top: window.innerHeight*4-40, behavior: 'smooth' })
-        closeMobileMenu()
+        }
     };
 
     const scrollContato = () =>{
+        if(isMobile){
+            window.scrollTo({ top: window.innerHeight*5.8, behavior: 'smooth' })
+            closeMobileMenu()
+        }else{
         window.scrollTo({ top: window.innerHeight*8+250, behavior: 'smooth' })
-        closeMobileMenu()
+        }
     };
 
     //Darkmode
@@ -63,7 +77,8 @@ function Navbar() {
 
     //Refresh Page
     function refreshPage() {
-        window.scrollTo({ top: 0, behavior: 'smooth' })
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        closeMobileMenu();
       }
     window.addEventListener('resize', showButton);
     return (
@@ -74,7 +89,7 @@ function Navbar() {
                   from: { opacity: 0, transform: "translate(0px, -400px)" }, delay: 4500
             })}>
                 <div className="navbar-container">
-                    <Link className="navbar-logo" onClick={refreshPage} style={{textDecoration: 'none'}}>
+                    <Link to="/" className="navbar-logo" onClick={refreshPage} style={{textDecoration: 'none'}}>
                         <span className='namenavbar' style={{color: clickDk ? 'white' : 'black',
                         border: clickDk ? '1px solid white'  : '1px solid black' }}>Bruno Viana</span>
                     </Link>
