@@ -302,12 +302,18 @@
 }
 
 
-@media screen and (max-width: 960px) {
+
+@media only screen and (max-width: 960px)  {
     .projcontainer2{
         margin-top: -310%;
     }
     .projcontainer3{
         margin-top: -330%;
+    }
+    .left-column{
+        width: 100%;
+        height: 100%;
+        margin-left: -80%;
     }
     .left-column>img{
 
@@ -321,12 +327,12 @@
     }
     .previewmobile{
         min-height: 20%;
-        min-width: 31%;
-        max-width: 31%;
+        min-width: 38%;
+        max-width: 38%;
         max-height: 20%;
         position: absolute;
-        margin-left: 18%;
-        margin-top: 59%;
+        margin-left: 12%;
+        margin-top: 62%;
     }
     .btnDemo{
         margin-top: 420%;
@@ -348,13 +354,16 @@
 
     }
     .right-column>h1{
-        font-size: 180%;
+        font-size: 140%;
     }
     .card-tools>img{
         height: 65%;
     }
+    .card-desc{
+        height: fit-content;
+    }
     .card-desc>p{
-        font-size: 90%;
+        font-size: 70%;
     }
     .right-column-alt{
         width: 380%;
@@ -362,7 +371,7 @@
         margin-left: -6%;
     }
     .right-column-alt>h1{
-        font-size: 180%;
+        font-size: 140%;
     }
     .right-column-alt > .card-tools>img{
         height:57%;
@@ -380,11 +389,12 @@
     }
     .previewmobile-alt{
         min-height: 20%;
-        min-width: 31%;
-        max-width: 31%;
+        min-width: 38%;
+        max-width: 38%;
         max-height: 20%;
-        margin-left: 50%;
-        margin-top: 72%;
+        margin-left: 56%;
+        margin-top: 75%;
+        position: absolute;
     }
     .btnDemo-alt{
         margin-top: 420%;
@@ -400,3 +410,14 @@
         text-justify: inter-word;
     }
 } 
+
+
+@media only screen and (min-width: 2560px){
+    .left-column{
+        width: 100%;
+        height: 100%;
+        margin-left: -33%;
+    }
+
+
+}

@@ -10,7 +10,7 @@ function Footer() {
     <div className="footer">
         <div className="about">
             <h1 style={{color: clickDk ? '#F0F6FC' : 'black'}}>Sobre</h1>
-            <p className="text-justify" style={{color: clickDk ? '#F0F6FC' : 'black'}}>Portfolio de projetos <a className="github" href="https://github.com/Bruno-Viana" target="_blank" rel="noreferrer">@Bruno Viana</a> em Q1 de 2021.<br/>
+            <p className="text-justify" style={{color: clickDk ? '#F0F6FC' : 'black'}}>Portfolio de projetos criado por <a className="github" href="https://github.com/Bruno-Viana" target="_blank" rel="noreferrer">@Bruno Viana</a>.<br/>
             Copyright © 2021 Bruno-Viana. Todos os direitos reservados.</p>
         </div>
         <div className="test">

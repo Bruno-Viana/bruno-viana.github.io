@@ -159,7 +159,7 @@
     }
     .tools>i{
         font-size: 190%;
-        margin-right: 10%;
+        margin-right: 15%;
     }
     .tools>img{
         height: 30%;
@@ -167,26 +167,56 @@
         margin-top: 1%;
     }
     .bar{
-        margin-top: 6%;
-        width: 62%;
+        margin-top: 8%;
+        width: 53%;
     }
     .bar-short{
-        margin-top: 6%;
+        margin-top: 8%;
         width: 67%;
     }
     .case>h1{
         font-size: 100%;
-        margin-top: 2%;
+        margin-top: 0%;
     }
     .case>h2{
         font-size: 100%;
-        margin-top: -7%;
+        margin-top: -12%;
         margin-left: 7%;   
     }
 
     .arrow2{
         visibility: hidden;
         display: none;
+    }
+
+}
+
+
+@media only screen and (width: 1920px){
+
+    .tools>i{
+        font-size: 600%;
+    }
+    .case>h1{
+        margin-top: 8.5%;
+    }
+    .case>h2{
+        margin-top: -3.5%;
+        margin-left: 2.5%;
+    }
+
+}
+
+@media only screen and (min-width: 3840px){
+    .tools>i{
+        font-size: 900%;
+    }
+    .case>h1{
+        margin-top: 9%;
+    }
+    .case>h2{
+        margin-top: -1.6%;
+        margin-left: 2.5%;
     }
 
 }

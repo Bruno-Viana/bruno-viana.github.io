@@ -219,19 +219,24 @@
     .floater{
       margin-top: 40%;
       height: 60%;
+      width: 95%;
     }
     .left{
       height: 40%;
     }
     .orangeBG{
       height: 28%;
-      transform: translate(-2%, -25%);
+      width: 30%;
+      transform: translate(-15%, -22%);
     }
     .location , .fa-map-marker-alt{
       font-size: 80%;
     }
     .right >p {
       font-size: 150%;
+    }
+    .desc{
+      font-size: 90%;
     }
 
 

@@ -231,7 +231,7 @@ textarea, input {
     line-height: inherit;
     padding: 10px 50px;
     margin-top: 23%;
-    margin-left: -6.5%;
+    margin-left: -6%;
     text-transform: uppercase;
     transition: all 0.25s ease 0s;
 }
@@ -246,7 +246,7 @@ textarea, input {
     line-height: inherit;
     padding: 10px 50px;
     margin-top: 23%;
-    margin-left: -6.5%;
+    margin-left: -6%;
     text-transform: uppercase;
     transition: all 0.25s ease 0s;
 }
@@ -266,7 +266,8 @@ textarea, input {
 
 @media only screen and (max-width: 960px){
     .BgParallaxHero,.BgParallax,.BgParallaxProj{
-        background-size: 100vw 40vh;
+        height: 40vh;
+        background-size:cover;
         background-attachment:scroll;
 
     }
@@ -327,9 +328,8 @@ textarea, input {
         margin-top: 30%;
         z-index: 4;
     }    
-    .btn-start-order {
-        font-size: 16px;
-        padding: 10px 50px;
+    .btn-start-order,.btn-start-orderDK {
+        font-size: 100%;
         margin-top: 72%;
         margin-left: -22%;
     }
@@ -341,4 +341,47 @@ textarea, input {
 
     }
     
+}
+
+@media only screen and (width: 411px){
+
+    .btn-start-order,.btn-start-orderDK {
+        font-size: 100%;
+        margin-top: 75%;
+        margin-left: -20%;
+    }
+}
+
+@media only screen and (width: 375px){
+
+    .btn-start-order,.btn-start-orderDK {
+        margin-top: 78%;
+    }
+    .retornaMsg{
+        margin-top: 90%;
+    }
+}
+@media only screen and (width: 1920px)  {
+    .btn-start-order,.btn-start-orderDK {
+        margin-left: -3.5%;
+    }
+
+}
+
+@media only screen and (min-width: 2560px)  {
+    .btn-start-order,.btn-start-orderDK {
+        margin-left: -3%;
+    }
+    .retornaMsg{
+        margin-top: 90%;
+    }
+
+}
+
+@media only screen and (min-width: 3840px)  {
+    .btn-start-order,.btn-start-orderDK {
+        margin-left: -1.4%;
+
+    }
+
 }
