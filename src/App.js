@@ -3,6 +3,7 @@ import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 //Import de pages 
 import Home from './components/pages/home';
+import Page404 from './components/pages/page404'
 //Import de components
 import Navbar from './components/Navbar';
 import Social from './components/Social';
@@ -16,7 +17,8 @@ function App() {
       <Navbar/>
       <Social/>
         <Switch>
-            <Route exact path='/' component={Home} />
+            <Route path='/' exact component={Home} />
+            <Route component={Page404} />
         </Switch>
       <Footer/>
       </DarkmodeProvider>
