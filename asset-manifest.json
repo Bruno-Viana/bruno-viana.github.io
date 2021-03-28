@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bruno-viana.github.io/static/css/main.1a3026c1.chunk.css",
-    "main.js": "/bruno-viana.github.io/static/js/main.33608192.chunk.js",
-    "main.js.map": "/bruno-viana.github.io/static/js/main.33608192.chunk.js.map",
-    "runtime-main.js": "/bruno-viana.github.io/static/js/runtime-main.292d03ca.js",
-    "runtime-main.js.map": "/bruno-viana.github.io/static/js/runtime-main.292d03ca.js.map",
-    "static/js/2.de7e170e.chunk.js": "/bruno-viana.github.io/static/js/2.de7e170e.chunk.js",
-    "static/js/2.de7e170e.chunk.js.map": "/bruno-viana.github.io/static/js/2.de7e170e.chunk.js.map",
-    "static/js/3.0299bb64.chunk.js": "/bruno-viana.github.io/static/js/3.0299bb64.chunk.js",
-    "static/js/3.0299bb64.chunk.js.map": "/bruno-viana.github.io/static/js/3.0299bb64.chunk.js.map",
+    "main.css": "/bruno-viana.github.io/static/css/main.53dcfca5.chunk.css",
+    "main.js": "/bruno-viana.github.io/static/js/main.542ba718.chunk.js",
+    "main.js.map": "/bruno-viana.github.io/static/js/main.542ba718.chunk.js.map",
+    "runtime-main.js": "/bruno-viana.github.io/static/js/runtime-main.85ac2a96.js",
+    "runtime-main.js.map": "/bruno-viana.github.io/static/js/runtime-main.85ac2a96.js.map",
+    "static/js/2.fbc5d2aa.chunk.js": "/bruno-viana.github.io/static/js/2.fbc5d2aa.chunk.js",
+    "static/js/2.fbc5d2aa.chunk.js.map": "/bruno-viana.github.io/static/js/2.fbc5d2aa.chunk.js.map",
+    "static/js/3.e98c3eab.chunk.js": "/bruno-viana.github.io/static/js/3.e98c3eab.chunk.js",
+    "static/js/3.e98c3eab.chunk.js.map": "/bruno-viana.github.io/static/js/3.e98c3eab.chunk.js.map",
     "index.html": "/bruno-viana.github.io/index.html",
-    "static/css/main.1a3026c1.chunk.css.map": "/bruno-viana.github.io/static/css/main.1a3026c1.chunk.css.map",
-    "static/js/2.de7e170e.chunk.js.LICENSE.txt": "/bruno-viana.github.io/static/js/2.de7e170e.chunk.js.LICENSE.txt",
+    "static/css/main.53dcfca5.chunk.css.map": "/bruno-viana.github.io/static/css/main.53dcfca5.chunk.css.map",
+    "static/js/2.fbc5d2aa.chunk.js.LICENSE.txt": "/bruno-viana.github.io/static/js/2.fbc5d2aa.chunk.js.LICENSE.txt",
     "static/media/Contato.css": "/bruno-viana.github.io/static/media/projects.e670dec4.webp",
     "static/media/css3.9ad8267f.webp": "/bruno-viana.github.io/static/media/css3.9ad8267f.webp",
     "static/media/django.99d7afb7.webp": "/bruno-viana.github.io/static/media/django.99d7afb7.webp",
@@ -33,9 +33,9 @@
     "static/media/template-preview-mobiledk.e48aeeec.webp": "/bruno-viana.github.io/static/media/template-preview-mobiledk.e48aeeec.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.292d03ca.js",
-    "static/js/2.de7e170e.chunk.js",
-    "static/css/main.1a3026c1.chunk.css",
-    "static/js/main.33608192.chunk.js"
+    "static/js/runtime-main.85ac2a96.js",
+    "static/js/2.fbc5d2aa.chunk.js",
+    "static/css/main.53dcfca5.chunk.css",
+    "static/js/main.542ba718.chunk.js"
   ]
 }
