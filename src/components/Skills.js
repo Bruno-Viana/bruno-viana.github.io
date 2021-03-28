@@ -24,10 +24,10 @@ function Skills() {
                   <h2 style={{color: clickDk ? '#F0F6FC' : 'black'}}>Front-end</h2>
                 </div>
                 <div className='tools'>
-                  <i className="fab fa-css3-alt"></i>
-                  <i className="fab fa-html5"></i>
-                  <i className="fab fa-js"></i>
-                  <i className="fab fa-react"></i>
+                  <i className="fab fa-css3-alt" title="CSS3"></i>
+                  <i className="fab fa-html5" title="HTML5"></i>
+                  <i className="fab fa-js" title="Vanilla JavaScript"></i>
+                  <i className="fab fa-react" title="React"></i>
                 </div>
                 <hr className='bar'               
                 data-aos="fade-right"
@@ -46,10 +46,10 @@ function Skills() {
                 </div>
                 
                 <div className='tools'>
-                  <i className="fab fa-java"></i>
-                  <i className="fab fa-python"></i>
-                  <i className="fab fa-js-square"></i>
-                  <i className="fab fa-node-js"></i>
+                  <i className="fab fa-java" title="Java"></i>
+                  <i className="fab fa-python" title="Python"></i>
+                  <i className="fab fa-js-square" title="ExpressJS"></i>
+                  <i className="fab fa-node-js" title="NodeJS"></i>
                 </div>
                 <hr className='bar'                
                 data-aos="fade-right"
@@ -67,9 +67,9 @@ function Skills() {
                   <h2 style={{color: clickDk ? '#F0F6FC' : 'black'}}>Database</h2>
                 </div>
                 <div className='tools'>
-                  <img src='https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png' alt='Firebase-logo'/>
-                  <img src='https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg' alt='MongoDB-logo'/>
-                  <img src='https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg' alt='MySQL-logo'/>
+                  <img src='https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png' alt='Firebase-logo' title="Firebase"/>
+                  <img src='https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg' alt='MongoDB-logo' title="MongoDB"/>
+                  <img src='https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg' alt='MySQL-logo' title="MySQL"/>
                 </div>
                 <hr className='bar-short'              
                 data-aos="fade-right"

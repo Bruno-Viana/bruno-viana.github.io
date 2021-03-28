@@ -385,3 +385,10 @@ textarea, input {
     }
 
 }
+
+@media only screen and (width: 509px){
+    .btn-start-order,.btn-start-orderDK {
+        margin-left: -15%;
+        margin-top:80%;
+    }
+}

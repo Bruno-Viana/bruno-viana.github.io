@@ -57,7 +57,7 @@ function Projects() {
                         </div>
                     </div>
                     <a className='demoAnchor' href="https://bruno-viana.github.io/react-ecommerce/" target='_blank' rel="noreferrer"><button className='btnDemo' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fas fa-play-circle"></i> Demo</button></a>
-                    <a className='sourceAnchor' href="https://github.com/Bruno-Viana/react-ecommerce" target="_blank" rel="noreferrer"><button className='btnDemo' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Código</button></a>
+                    <a className='sourceAnchor' href="https://github.com/Bruno-Viana/react-ecommerce" target="_blank" rel="noreferrer"><button className='btnDemo' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Fonte</button></a>
                     <img className='previewmobile' src={clickDk ? previewmobileDK : previewmobile} alt='mobile'>
                     </img>
                 </div>   
@@ -85,7 +85,7 @@ function Projects() {
                     </div>
                 </div>
                 <a className='demoAnchor-alt' href="https://bruno-viana.github.io/covid-dosvales/" target='_blank' rel="noreferrer"><button className='btnDemo-alt' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fas fa-play-circle"></i> Demo</button></a>
-                <a className='sourceAnchor-alt' href="https://github.com/Bruno-Viana/covid-dosvales" target="_blank" rel="noreferrer"><button className='btnDemo-alt' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Código</button></a>  
+                <a className='sourceAnchor-alt' href="https://github.com/Bruno-Viana/covid-dosvales" target="_blank" rel="noreferrer"><button className='btnDemo-alt' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Fonte</button></a>  
                 <img className='previewmobile-alt' src={clickDk ? previewCovidMobileDK : previewCovidMobile} alt='mobile'>
                 </img>
             </div>
@@ -105,7 +105,7 @@ function Projects() {
                             </div>
                             <div className='card-desc'>
                                         <p style={{color: clickDk ? '#F0F6FC' : 'black'}}>
-                                            Como projeto pessoal em 2020, criei essa aplicação com método de <i>Web Scraping</i> em sites conhecidos de hardware do Brasil para auxiliar na buscar do melhor preço por uma peça específica.
+                                            Como projeto pessoal em 2020, criei essa aplicação com método de <i>Web Scraping</i> em sites conhecidos de hardware do Brasil para auxiliar na busca do melhor preço por uma peça específica.
                                             <br/><br/><br/>
                                             OBS: Passe o mouse abaixo para mais informações.
                                         </p>
@@ -115,7 +115,7 @@ function Projects() {
                             <i className="fas fa-play-circle"></i>
                              Demo</button>
                             <div className="hideProj">Pelo nível de recursos necessários para hospedar uma aplicação feita com Back-end em Django/Python não tive opções acessíveis para dar deploy e gerar uma demo.</div>
-                        <a className='sourceAnchor' href="https://github.com/Bruno-Viana/pc-easy" target="_blank" rel="noreferrer"><button className='btnDemo' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Código</button></a>
+                        <a className='sourceAnchor' href="https://github.com/Bruno-Viana/pc-easy" target="_blank" rel="noreferrer"><button className='btnDemo' style={{color: clickDk ? '#0C0C0C' : 'white'}}><i className="fab fa-github"></i> Fonte</button></a>
                         {/* Template para preview de celular lado Esquerdo
                         <img className='previewmobile' src={clickDk ? previewmobileDK : previewmobile} alt='mobile'  
                             data-aos="fade-up"

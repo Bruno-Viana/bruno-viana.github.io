@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import './HeroSection.css';
 import {DarkmodeContext} from './DarkmodeContext';
 import {useSpring, animated} from 'react-spring'
-import DoomImg from '../templates/doom.webp';
+import Profilefull from '../templates/face.webp';
 
 function HeroSection() {
 
@@ -39,13 +39,13 @@ function HeroSection() {
                   config:{ duration: 1000 },
             })}>            
             <div className='left'>
-                 <img src={DoomImg} alt='profilePic'/>
+                 <img src={Profilefull} alt='profilePic'/>
             </div>
             <div className='right'>
             <h2 style={{color: clickDk ? '#F0F6FC' : 'black'}}>{Mensagem}</h2>
                 <span className='location'><i className="fas fa-map-marker-alt"/> Santa Cruz do Sul, Rio Grande do Sul.</span> <hr/>
                 <p> Desenvolvedor Júnior </p>
-                <span className='desc'style={{color: clickDk ? '#F0F6FC' : 'black'}}>Meu nome é <b>Bruno Viana</b>, estudande de Ciência da Computação pela UNISC. Apaixonado pelo <b>Fullstack</b> com uma atenção especial pelo <b>Back-end</b> sem esquecer a <b>UI/UX</b>. Sempre procurando evoluir sendo autodidata.
+                <span className='desc'style={{color: clickDk ? '#F0F6FC' : 'black'}}>Meu nome é <b>Bruno Viana</b>, estudande de Ciência da Computação pela UNISC. Apaixonado pelo <b>Fullstack</b> com uma atenção especial pelo <b>Back-end</b> sem esquecer a <b>UI/UX</b>. Sempre procurando evoluir como desenvolvedor.
                 </span>
             </div>
         </animated.div>

@@ -14,6 +14,7 @@ function Navbar() {
             closeMobileMenu()
         }else{
         window.scrollTo({ top: window.innerHeight*2-40, behavior: 'smooth' })
+        closeMobileMenu();
 
         }
     };
@@ -24,6 +25,7 @@ function Navbar() {
             closeMobileMenu()
         }else{
         window.scrollTo({ top: window.innerHeight*4-40, behavior: 'smooth' })
+        closeMobileMenu();
         }
     };
 
@@ -33,6 +35,7 @@ function Navbar() {
             closeMobileMenu()
         }else{
         window.scrollTo({ top: window.innerHeight*8+250, behavior: 'smooth' })
+        closeMobileMenu();
         }
     };
 
